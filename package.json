@@ -4,14 +4,14 @@
   "description": "A library for growing and flattening trees.",
   "main": "lib/tree-doctor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DerNamenlose/tree-doctor.git"
   },
   "keywords": [
-    "tree"    
+    "tree"
   ],
   "author": "Markus Brueckner",
   "license": "ISC",
@@ -21,5 +21,8 @@
   "homepage": "https://github.com/DerNamenlose/tree-doctor#readme",
   "files": [
     "lib/"
-  ]
+  ],
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
 }
